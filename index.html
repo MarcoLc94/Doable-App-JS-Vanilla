@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Doable</title>
+  </head>
+  <body>
+    <!-- Happy coding! -->
+    <header class="header">
+      <div class="container navbar">
+        <h2 class="justify-center">{ Doable }</h2>
+        <div class="navbar-icons js-">
+          <img
+            src="./images/icons/close.svg"
+            alt=""
+            class="navbar__menu-icon"
+          />
+        </div>
+      </div>
+    </header>
+    <br />
+    <section class="inputs">
+      <div>
+        <input type="text" placeholder="Do something" />
+        <input type="date" />
+      </div>
+      <div>
+        <a href="" class="button">Create a task</a>
+      </div>
+    </section>
+    <br />
+    <section class="container">
+      <form action="">
+        Sort
+        <select name="" id="sort-tasks">
+          <option value="">Alpabetically (A - Z)</option>
+          <option value="">Due date</option>
+          <option value="">Importance</option>
+        </select>
+      </form>
+      <label for="">
+        Show
+        <input type="checkbox" id="only-pending" /> Only Pending
+        <input type="checkbox" id="only-important" /> Only Important
+      </label>
+    </section>
+    <main>
+      <div id="main-content" class="container">
+        <div><input type="checkbox" /> Complete Assignaments</div>
+        <ul class="expenses">
+          <li class="expense">
+            <input type="checkbox" />
+            <div class="">
+              <p>Lavar platos</p>
+              <p>Octubre 2023</p>
+            </div>
+            <img
+              src="./images/icons/chevron-down.svg"
+              alt=""
+              class="navbar__menu-icon"
+            />
+          </li>
+          <li class="expense">
+            <input type="checkbox" />
+            <div class="">
+              <p>Lavar ropa</p>
+              <p>Octubre 2023</p>
+            </div>
+            <img
+              src="./images/icons/chevron-down.svg"
+              alt=""
+              class="navbar__menu-icon"
+            />
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>Codeable 2023 - C11</p>
+    </footer>
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>
